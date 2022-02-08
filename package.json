@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "description": "Backend Server for PRP final project",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prp-productions/PRP_backend_server.git"
+    "url": "git+https://github.com/prp-productions/PRP-server.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/prp-productions/PRP_backend_server/issues"
   },
-  "homepage": "https://github.com/prp-productions/PRP_backend_server#readme"
+  "homepage": "https://github.com/prp-productions/PRP_backend_server#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
