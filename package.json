@@ -20,7 +20,9 @@
   "homepage": "https://github.com/prp-productions/PRP_backend_server#readme",
   "keywords": [],
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.2",
+    "express-session": "^1.17.2",
     "nodemon": "^2.0.15"
   }
 }
